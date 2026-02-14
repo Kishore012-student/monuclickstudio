@@ -1,6 +1,6 @@
 // ========================================
 // MODERN PHOTOGRAPHY PORTFOLIO - JAVASCRIPT
-// ========================================
+// ======================================== 
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -275,7 +275,7 @@ contactForm.addEventListener('submit', (e) => {
     };
 
     // Create WhatsApp message
-    const whatsappNumber = '919363014414'; // Your WhatsApp number (with country code, no + or spaces)
+    const whatsappNumber = '919042614414'; // Your WhatsApp number (with country code, no + or spaces)
 
     // Format the message for WhatsApp
     const whatsappMessage = `*New Photography Inquiry*\n\n` +
@@ -289,7 +289,7 @@ contactForm.addEventListener('submit', (e) => {
     const encodedMessage = encodeURIComponent(whatsappMessage);
 
     // Create WhatsApp URL
-    const whatsappURL = `https://wa.me/${9363014414}?text=${encodedMessage}`;
+    const whatsappURL = `https://wa.me/${9042614414}?text=${encodedMessage}`;
 
     // Show success notification
     showNotification(`Redirecting to WhatsApp for ${selectedPackageDisplay}...`, 'success');

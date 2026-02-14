@@ -997,6 +997,7 @@ section {
     display: flex;
     gap: 1rem;
     padding-left: 50%;
+    text-decoration: none;
 }
 
 .social-icon {
@@ -1012,6 +1013,7 @@ section {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .social-icon::before {
@@ -1116,6 +1118,7 @@ section {
     z-index: 999;
     transition: var(--transition);
     animation: pulse 2s infinite;
+    text-decoration: none;
 }
 
 .whatsapp-float:hover {
